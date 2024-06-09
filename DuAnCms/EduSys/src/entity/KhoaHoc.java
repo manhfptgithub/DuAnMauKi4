@@ -1,0 +1,105 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package entity;
+
+import java.util.Date;
+
+/**
+ *
+ * @author ADMIN
+ */
+public class KhoaHoc {
+
+    private int maKH;
+    private String tenKh;
+    private String MaCD;
+    private double hocPhi;
+    private int thoiLuong;
+    private Date ngayKG;
+    private String ghiChu;
+    private String maNV;
+    private Date ngayTao;
+
+    public int getMaKH() {
+        return maKH;
+    }
+
+    public void setMaKH(int maKH) {
+        this.maKH = maKH;
+    }
+
+    public String getTenKh() {
+        return tenKh;
+    }
+
+    public void setTenKh(String tenKh) {
+        this.tenKh = tenKh;
+    }
+
+    public String getMaCD() {
+        return MaCD;
+    }
+
+    public void setMaCD(String MaCD) {
+        this.MaCD = MaCD;
+    }
+
+    public double getHocPhi() {
+        return hocPhi;
+    }
+
+    public void setHocPhi(double hocPhi) {
+        this.hocPhi = hocPhi;
+    }
+
+    public int getThoiLuong() {
+        return thoiLuong;
+    }
+
+    public void setThoiLuong(int thoiLuong) {
+        this.thoiLuong = thoiLuong;
+    }
+
+    public Date getNgayKG() {
+        return ngayKG;
+    }
+
+    public void setNgayKG(Date ngayKG) {
+        this.ngayKG = ngayKG;
+    }
+
+    public String getGhiChu() {
+        return ghiChu;
+    }
+
+    public void setGhiChu(String ghiChu) {
+        this.ghiChu = ghiChu;
+    }
+
+    public String getMaNV() {
+        return maNV;
+    }
+
+    public void setMaNV(String maNV) {
+        this.maNV = maNV;
+    }
+
+    public Date getNgayTao() {
+        return ngayTao;
+    }
+
+    public void setNgayTao(Date ngayTao) {
+        this.ngayTao = ngayTao;
+    }
+   
+
+    @Override
+    public String toString() {
+        return this.tenKh;
+    }
+    
+    
+
+}
